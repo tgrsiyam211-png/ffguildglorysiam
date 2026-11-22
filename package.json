@@ -1,0 +1,8 @@
+{
+  "name": "ff-guild-glory-siyam",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FF Guild Glory Siam - secure read-only dashboard starter",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "dotenv": "^16.4.5", "express": "^4.21.2" }
+}
