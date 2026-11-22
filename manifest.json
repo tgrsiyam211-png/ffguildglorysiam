@@ -1,0 +1,10 @@
+{
+  "name": "FF GUILD GLORY SIYAM",
+  "short_name": "FF Glory Siam",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0e16",
+  "theme_color": "#10131d",
+  "description": "FF Guild Glory Siam dashboard",
+  "icons": []
+}
