@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#10131d"><meta name="description" content="FF Guild Glory Siam dashboard">
+<link rel="manifest" href="/manifest.json"><link rel="stylesheet" href="/style.css">
+<title>FF GUILD GLORY SIYAM</title>
+</head>
+<body>
+<header><div class="brand">FF <b>GUILD GLORY</b> <span>SIYAM</span></div><button id="refresh" class="outline">↻ Refresh</button></header>
+<main>
+<section class="hero"><div class="eyebrow">GUILD MANAGEMENT DASHBOARD</div><h1>FF GUILD GLORY SIYAM</h1><p>তোমার FFGlory অ্যাকাউন্টের তথ্য ও Glory অগ্রগতি এক জায়গায় দেখো।</p><div id="connection" class="status">সার্ভারের অবস্থা দেখা হচ্ছে…</div></section>
+<section class="stats">
+ <article class="stat"><small>Username</small><strong id="username">—</strong></article>
+ <article class="stat"><small>Basic Credits</small><strong id="basic">—</strong></article>
+ <article class="stat"><small>Premium Credits</small><strong id="premium">—</strong></article>
+ <article class="stat"><small>Max Groups</small><strong id="maxgroups">—</strong></article>
+</section>
+<section class="grid">
+ <article class="panel wide"><div class="panelhead"><h2>My Groups</h2><span id="groupcount">—</span></div><div id="groups" class="loading">লোড হচ্ছে…</div></article>
+ <article class="panel"><h2>Glory Progression</h2><label for="groupid">Group ID</label><input id="groupid" placeholder="তোমার Group ID লিখো"><button id="loadprogress" class="primary">Progress দেখুন</button><pre id="progress" class="result">Group ID দিয়ে Progress দেখো।</pre></article>
+ <article class="panel"><h2>Pricing & Regions</h2><div id="pricing" class="loading">লোড হচ্ছে…</div></article>
+ <article class="panel"><h2>Group History</h2><div id="history" class="loading">লোড হচ্ছে…</div></article>
+ <article class="panel"><h2>Transactions</h2><div id="transactions" class="loading">লোড হচ্ছে…</div></article>
+ <article class="panel"><h2>My Coupons</h2><div id="coupons" class="loading">লোড হচ্ছে…</div></article>
+ <article class="panel"><h2>Activity Log</h2><div id="activity" class="loading">লোড হচ্ছে…</div></article>
+</section>
+<p class="note">নিরাপত্তা: এই ড্যাশবোর্ড শুধু তথ্য দেখার জন্য। API Key ব্রাউজারে রাখা হয় না; সার্ভারের private .env ফাইলে রাখতে হবে। এখানে কোনো Glory farming বা game-server পরিবর্তনের ফিচার নেই।</p>
+</main><footer>FF GUILD GLORY SIYAM · Independent dashboard</footer>
+<script src="/app.js"></script>
+</body></html>
